@@ -156,7 +156,6 @@ public class Cronometro implements Runnable {
 	}
 
 	public void detenerCronometro() throws InterruptedException {
-//		if (hilo.isAlive()) { otra manera de controlarlo
 		if (!this.suspendido.getSuspendido()) {
 			this.getSuspendido().setSuspendido(true);
 			desactivarBoton(btnIniciar, "Detenido", 14);
