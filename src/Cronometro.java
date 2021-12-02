@@ -114,7 +114,7 @@ public class Cronometro implements Runnable {
 		String min = "", seg = "", mil = "";
 		try {
 			while (!this.suspendido.getSuspendido()) {
-				Thread.sleep(3);
+				Thread.sleep(4);
 				milesimas += 4;
 
 				if (milesimas == 1000) {
